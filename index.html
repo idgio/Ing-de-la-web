@@ -26,11 +26,14 @@
        </article>
         </section>  
         <section id="comments">  
-          <p>Lorem ipsum dolor sit amet, ad sit fugit nominavi, ex tollit sanctus suscipit per, verterem atomorum at vix. Sit ea percipit fabellas. Usu amet eligendi instructior ne. Dissentiunt vituperatoribus duo ei, ne vis mazim ubique. Sit te elit vitae mnesarchum, quo utamur veritus ne, docendi appareat menandri his cu.
-
-Per agam praesent cu, ad mea ullum nihil. At pri modus insolens, at vero postea perpetua duo, id natum simul reprimique est. Mei ex soluta sensibus consectetuer, legere tacimates mediocritatem vim cu. Eos id omnesque mediocrem, ius ei denique electram scriptorem, nam ad numquam neglegentur. Duo an appareat theophrastus, ius illud timeam noluisse ex, exerci tritani in mea.
-
-Mel cu oratio tamquam sadipscing. Cum an illud constituto, altera definitionem mediocritatem ea mei. Mea consul fuisset ei, sit an tantas aliquip mentitum. Has ex doming convenire. Sea in adhuc ullum, ei sale argumentum sit, ius audiam democritum ea.</p>
+          <form>
+          	Homepage: <input type="url" name="website" pattern="https?://.+" title="Incluye http:// en tu sitio">
+          	E-mail: <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Debe ser un email valido">
+          	Password: <input type="password" name="pw" pattern=".{6,}" title="Debe tener un largo de 6 caracteres">
+          	Tarjeta de credito: <input type="text" name="credito" pattern="[0-9]{13,16}" title="Debe ser una tarjeta valida">
+          	Numero de telefono: <input type="tel" pattern="^\d{4}-\d{4}$" >
+			<input type="submit">
+          </form>
         </section>  
     </div>  
     <aside>  
